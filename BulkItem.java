@@ -52,4 +52,16 @@ public class BulkItem implements Item {
       return (someitem instanceof BulkItem);
     }
   }// equals(Item)
+
+  public BulkFood getFood() {
+    return this.food;
+  }
+
+  public Unit getUnit() {
+    return this.unit;
+  }
+
+  public int getAmount() {
+    return this.amount;
+  }
 }// class
